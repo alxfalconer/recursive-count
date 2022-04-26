@@ -1,4 +1,7 @@
 function recursiveCount(num = 0) {
+  if (num >= 10) return;
+  console.log(num);
+  recursiveCount(num + 1);
   // type your code here
 }
 
